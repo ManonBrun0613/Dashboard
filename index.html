@@ -11,22 +11,24 @@
     <div class="container">
     <div class="header">
         <div class="upper-header">
-            <ul>
+            <ul class="left">
                 <li><img src="./mag_glass.svg" 
                     alt="Magnifying Glass"/></li>
                 <li><input type="search" /></li>
+            </ul>
+            <ul class="right">
                 <li><img src="./bell.svg" 
                     alt="Bell"/></li>
                 <li class="profile-pic"><img 
                     src="./tohru_pp.jpg" 
                     alt="Anime Girl (Tohru Honda)'s 
                     profile picture"/></li>
-                <li>Tohru Honda</li>
+                <li class="name">Tohru Honda</li>
                 <li class="jap">本田 透</li>
             </ul>
         </div>
         <div class="lower-header">
-            <ul>
+            <ul class="left">
                 <li class="profile-pic"><img 
                     src="./tohru_pp.jpg" 
                     alt="Anime Girl (Tohru Honda)'s 
@@ -39,16 +41,16 @@
                         Tohru Honda (@onigiri)
                     </div>
                 </li>
-                <li>
-                    <ul>
-                        <li><button>New</button></li>
-                        <li><button>Upload</button></li>
-                        <li><button>Share</button></li>
-                    </ul>
-                </li>
+            </ul>
+            <ul class="right">
+                <li><button>New</button></li>
+                <li><button>Upload</button></li>
+                <li><button>Share</button></li>
             </ul>
         </div>
     </div>
+
+
     <div class="sidebar">
         <div class="logo">
             <img src="logo.svg" alt="flower" height='450'/>
@@ -80,8 +82,10 @@
             </ul>
         </div>
     </div>
+
+
     <div class="content">
-        <h2 class="projects">Your Projects</h2>
+        <h2 class="projects-h2">Your Projects</h2>
         <div class="projects">
             <div>
                 <h3>Super Cool Project</h3>
@@ -90,61 +94,62 @@
                 facilisis felis accumsan nec.
             
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
 
             <div>
                 <h3>Less Cool Project</h3>
-                Sed tempus ut lacus ut scelerisque. 
-                Suspendisse sollicitudin nibh erat, id 
-                facilisis felis accumsan nec.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
         
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
 
             <div>
                 <h3>Impossible App</h3>
-                Sed tempus ut lacus ut scelerisque. 
-                Suspendisse sollicitudin nibh erat, id 
-                facilisis felis accumsan nec.
+                Duis aute irure dolor in reprehenderit in voluptate velit 
+                esse cillum dolore eu fugiat nulla pariatur.
     
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
             
             <div>
                 <h3>Easy Peasy App</h3>
-                Sed tempus ut lacus ut scelerisque. 
-                Suspendisse sollicitudin nibh erat, id 
-                facilisis felis accumsan nec.
+                Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim 
+                id est laborum.
     
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
 
             <div>
                 <h3>Ad Blocker</h3>
-                Sed tempus ut lacus ut scelerisque. 
-                Suspendisse sollicitudin nibh erat, id 
-                facilisis felis accumsan nec.
+                Neque vitae tempus quam pellentesque. Mattis aliquam 
+                faucibus purus in massa. Accumsan tortor posuere ac ut. 
+                Condimentum id venenatis a condimentum vitae sapien 
+                pellentesque.
 
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
 
@@ -155,13 +160,13 @@
                 facilisis felis accumsan nec.
 
                 <ul>
-                    <li>star</li>
-                    <li>eye</li>
-                    <li>share</li>
+                    <li><img src="./star.svg" alt="star"/></li>
+                    <li><img src="./eye.svg" alt="eye"/></li>
+                    <li><img src="./share.svg" alt="share"/></li>
                 </ul>
             </div>
         </div>
-        <h2 class="announcements">Announcements</h2>
+        <h2 class="announcements-h2">Announcements</h2>
         <div class="announcements">
             <div>
                 <h4>Site Maintenance</h4>
@@ -183,7 +188,7 @@
             </div>
         </div>
 
-        <h2 class="trending">Trending</h2>
+        <h2 class="trending-h2">Trending</h2>
         <div class="trending">
             <ul>
                 <li>
