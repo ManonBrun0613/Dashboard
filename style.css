@@ -221,6 +221,7 @@ input:hover, input:focus{
     
 }
 
+/* Projects section styling */
 h2.projects-h2{
     grid-area: 1/1/2/2;
     padding-left:25px;
@@ -284,6 +285,7 @@ h2.projects-h2{
     font-size: 1.3rem;
 }
 
+/* Announcements section styling */
 
 h2.announcements-h2 {
     grid-area: 1/2/2/3;
@@ -291,8 +293,28 @@ h2.announcements-h2 {
     margin-bottom: -10px;
 
 }
+
 .announcements {
     grid-area: 2/2/3/3;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 4px 4px 10px #ffe1e1;
+    margin-right:40px;
+    margin-top: 12px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr; 
+    padding: 0 28px;    
+}
+
+.announcements p  {
+    margin-top: -22px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #fdf5e7;
+}
+
+.announcements .last-p {
+    border-bottom:0;
 }
 
 h2.trending-h2 {
@@ -302,7 +324,7 @@ h2.trending-h2 {
 }
 
 .trending {
-    grid-area:4/2/5/3 ;
+    grid-area:4/2/5/3;
 }
 
 
